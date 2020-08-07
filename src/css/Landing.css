@@ -1,0 +1,17 @@
+@import "../css/Palette.css";
+@import "../css/Fonts.css";
+
+.Landing-Cmpnt {
+    height: 85vh;
+    background-image: url('../img/Necklace_TP_Opacity.png');
+    background-position: top;
+    background-size: 80vh;
+    background-repeat: no-repeat;
+}
+
+.Landing-Cmpnt h1 {
+    padding-top: 240px;
+    font-family: 'special_elite';
+    font-size: 64px;
+    color: var(--ssd-ivory);
+}
