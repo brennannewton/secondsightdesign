@@ -19,10 +19,12 @@ export default class Navigation extends React.Component {
             <div className="Navigation-Cmpnt w-100">
                 <Navbar collapseOnSelect expand="lg" className="Bar m-0 p-0">
                     <Navbar.Brand as={Link} to="/" className="Logo-L mr-auto">
-                        <img src={Logo}/>
+                        <img src={Logo} 
+                            alt="Second Sight Design logo - a pair of glasses with eyes looking through them"
+                        />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" className="Menu ml-auto">
-                        <img src={Menu}/>
+                        <img src={Menu} alt="Menu icon"/>
                     </Navbar.Toggle>
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="Internal mr-auto align-items-center">
@@ -35,7 +37,9 @@ export default class Navigation extends React.Component {
                         </Nav>
                         <Nav className="Logo-C m-auto align-items-center">
                             <Nav.Link as={Link} to="/">
-                                <img src={Logo}/>
+                                <img src={Logo}
+                                    alt="Second Sight Design logo - a pair of glasses with eyes looking through them"
+                                />
                             </Nav.Link>
                         </Nav>
                         <Nav className="Contact ml-auto align-items-center">
