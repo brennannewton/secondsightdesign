@@ -4,7 +4,6 @@ import {BrowserRouter, Route} from 'react-router-dom';
 import Navigation from './js/Navigation';
 import Landing from './js/Landing';
 
-
 // Styles
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
